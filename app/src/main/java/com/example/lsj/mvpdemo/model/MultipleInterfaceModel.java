@@ -10,7 +10,6 @@ import rx.Subscriber;
 import rx.android.schedulers.AndroidSchedulers;
 import rx.schedulers.Schedulers;
 
-
 public class MultipleInterfaceModel implements IMultipleInterfaceModel {
 
     @Override
