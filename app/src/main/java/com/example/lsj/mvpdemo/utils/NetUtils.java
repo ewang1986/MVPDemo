@@ -95,7 +95,6 @@ public class NetUtils {
         return mRetrofit;
     }
 
-
     public static class LogInterceptor implements Interceptor {
 
         @Override
@@ -139,7 +138,6 @@ public class NetUtils {
                     response.isSuccessful() ? "success" : "fail", response.message(), response.code()));
             //the response data
             ResponseBody body = response.body();
-
             BufferedSource source = body.source();
             source.request(Long.MAX_VALUE); // Buffer the entire body.
             Buffer buffer = source.buffer();

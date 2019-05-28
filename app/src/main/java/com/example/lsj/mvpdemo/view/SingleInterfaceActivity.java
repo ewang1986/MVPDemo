@@ -41,7 +41,6 @@ public class SingleInterfaceActivity extends BaseMVPActivity<SingleInterfacePres
         return new SingleInterfacePresenter();
     }
 
-
     @Override
     public void showArticleSuccess(ArticleListBean bean) {
         textView.setText(bean.data.datas.get(0).title);

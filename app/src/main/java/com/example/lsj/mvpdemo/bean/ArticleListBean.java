@@ -19,7 +19,6 @@ public class ArticleListBean {
     public int errorCode;
     public String errorMsg;
 
-
     public static class DataBean {
         /**
          * curPage : 1

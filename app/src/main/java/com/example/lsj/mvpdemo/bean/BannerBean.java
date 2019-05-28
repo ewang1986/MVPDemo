@@ -14,7 +14,6 @@ public class BannerBean {
     public String errorMsg;
     public List<DataBean> data;
 
-
     public static class DataBean {
         /**
          * desc : 一起来做个App吧
